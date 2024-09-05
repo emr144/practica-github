@@ -1,0 +1,192 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+/* Color de texto negro con bordes blancos */
+h1 {
+    color: black; 
+    text-shadow: 
+        1px 1px 0px white,  
+        -1px -1px 0px white, 
+        -1px 1px 0px white,  
+        1px -1px 0px white;  
+    font-size: 48px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    margin: 0;
+    padding: 0;
+    
+    
+
+h1{
+    
+    border: double 7px rgb(3, 3, 3);
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+    margin: 30px auto;
+    padding: 30px;
+    width: 180px;
+    height: 180px;
+
+
+} 
+
+header {
+    background-color:sandybrown;
+    background: linear-gradient(to bottom, sandybrown, rgb(247, 211, 179));
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: rgb(42, 41, 41);
+    text-decoration: none;
+    background-color: rgba(254, 254, 254, 0.877);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 5px;
+    
+} 
+
+main {
+    text-align: center;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten; 
+    background-image: url('../img/lila.jpg'); 
+    width: 100%;
+    height: auto;
+
+    
+}
+
+.text,.foto{
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    margin: 0px;
+}
+
+
+
+/* foto de portada */
+
+
+.text1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+
+
+}
+.skinimg{
+    width: 100%;
+    text-align: center;
+}
+
+.skinimg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.gloimg{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.gloimg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+main div {
+    display: inline;
+    width: 100%;
+
+}
+main div h2 {
+    color: rgb(247, 244, 244);
+    text-align: center;
+    width: 100%;
+
+}
+
+main div p {
+    color:rgba(243, 237, 243, 0.635);
+    font-style:inherit ;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 
+    
+    
+}
+
+
+
+
+/* Table */
+
+table{
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+td{
+    padding:10px;
+    white-space: pre-wrap;
+}
+th{
+    padding: auto;
+}
+table td, table th{
+    vertical-align: center;
+}
+li{
+    color: white;
+}
+
+
+
+/*Footer */
+footer {
+    background-color: sandybrown;
+    background: linear-gradient(to bottom,rgb(247, 211, 179), sandybrown);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+ 
+    bottom: 0;
+    width: 100%;
+}
